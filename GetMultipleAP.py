@@ -1,5 +1,4 @@
-"""Chen Wu 2016- Python
-Script to connect to multiple APs, add a specific command and logout."""
+"""Script to connect to multiple APs, add a specific command and logout."""
 import os
 import sys
 import pexpect
@@ -16,7 +15,7 @@ import socket
 
 
 # open the txt file
-f = open('SJC12APList.txt', 'r')
+f = open('APList.txt', 'r')
 ap_details = f.read()
 f.close()
 
@@ -58,9 +57,9 @@ logger.addHandler(fh)
 
 
 #username = input('Enter your Username: ')
-username = 'apadmin'
+username = 'username'
 #password = input('Enter your Password: ')
-password = 'kL1f0rn1a'
+password = 'password'
 
 
 
