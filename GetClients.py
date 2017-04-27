@@ -9,9 +9,9 @@ import socket
 #Global Variables
 
 #username = input('Enter your Username: ')
-username = 'SJC12-RO'
+username = 'username'
 #password = input('Enter your Password: ')
-password = '1ReadOnly1'
+password = 'password'
 #enablePass = input('Enter the Enable Password: ')
 hostTest = '10.155.204.210'
 
@@ -53,8 +53,8 @@ def openSSH( hostname):
 
 
     # Strip the initial router prompt
-    firstRouterShell.send("SJC12-RO\n")
-    firstRouterShell.send("1ReadOnly1\n")
+    firstRouterShell.send("username\n")
+    firstRouterShell.send("password\n")
     time.sleep(2)
     #output = disable_paging(firstRouterShell)
     output = firstRouterShell.recv(1000)
