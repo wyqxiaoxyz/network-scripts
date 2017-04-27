@@ -32,8 +32,8 @@ def openSSH(hostname):
 
 
     # Strip the initial router prompt
-    firstRouterShell.send("SJC12-RO\n")
-    firstRouterShell.send("1ReadOnly1\n")
+    firstRouterShell.send("username\n")
+    firstRouterShell.send("password\n")
     time.sleep(2)
 
     # Turn off paging
