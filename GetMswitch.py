@@ -1,5 +1,5 @@
-"""Vincent Boucher 2015-01-07- Python
-Script to connect to multiple switches, add a specific command and logout."""
+"""Script to connect to multiple switches, add a specific command and logout."""
+
 import os
 import sys
 import pexpect
@@ -30,9 +30,9 @@ import logging
 # logger.addHandler(fh)
 
 # Switch username
-switch_un = "yinqwu.web"
+switch_un = "username"
 # Switch password
-switch_pw = "qqaqq1314WEB"
+switch_pw = "password"
 
 ip= '10.155.4.5'
 
